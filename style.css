@@ -1,0 +1,48 @@
+
+.container
+{
+	padding: 0 100px;
+	background: url(background.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	flex-direction:column-reverse;
+}
+
+.box
+{
+	text-align: center;
+	position: relative;
+	max-width: 600px;
+	padding: 50px;
+	background: rgba(225,225,225,0.2);
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+	margin-bottom: 200px;;
+}
+
+.box h3{
+	font-size: 28px;
+	color: #333;
+}
+
+.box input
+{
+	position: relative;
+	width: 150px;
+	height: 30px;
+    border: none;
+    outline: none;
+    background: transparent;
+	border-radius: 8px;
+	margin: 10px 0 20px;
+	padding: 0 20px;
+	font-size: 13px;
+	letter-spacing: 2px;
+	color: #333;
+	box-shadow: -4px -4px 10px rgba(255,255,255,1),
+				inset 4px 4px 10px rgba(0,0,0,0.5);
+
+
+}
